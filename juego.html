@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cv lautaro guardia</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html"><li>Home</li></a>
+        <a href="educacion.html"><li>Educacion</li></a>
+        <a href="competencia.html"><li>Competencia</li></a>
+        <a href="juego.html"><li>Juego</li></a>
+      </nav>
+    </header>
 
+    <div class="contenedor">
+        <h1 class="titulo">Cuestionario de pregunta</h1>
+        <form id="Cuestionario">
+            <div class="pregunta">
+                <p class="preguntas">1. ¿Cuál es la capital de Francia?</p>
+                <input type="radio" name="r1" value="Paris"> Paris<br>
+                <input type="radio" name="r1" value="Londres"> Londres<br>
+                <input type="radio" name="r1" value="Berlín"> Berlín<br>
+            </div>
+
+            <div class="pregunta">
+                <p class="preguntas">2. ¿Quien gano el mundial de año 2023?</p>
+                <input type="radio" name="r2" value="Francia"> Francia<br>
+                <input type="radio" name="r2" value="Londres"> Londres<br>
+                <input type="radio" name="r2" value="Argentina"> Argentina<br>
+            </div>
+
+            <div class="pregunta">
+                <p class="preguntas">3. ¿En que universidad estoy estudiando?</p>
+                <input type="radio" name="r3" value="Uade"> Uade<br>
+                <input type="radio" name="r3" value="universidad de Buenos Aires"> Universidad de Buenos Aires<br>
+                <input type="radio" name="r3" value="Univerisad de  San Martin"> Univerisad de  San Martin<br>
+            </div>
+
+            <div class="pregunta">
+
+                <p class="preguntas">4. ¿Cual es la capital de peru?</p>
+                <input type="radio" name="r4" value="Lima"> Lima<br>
+                <input type="radio" name="r4" value="Bogota"> Bogota<br>
+                <input type="radio" name="r4" value="Caracas"> Caracas<br>
+            </div>
+
+            <div class="pregunta">
+                <p class="preguntas">5. ¿Cuántos lados tiene un triángulo?</p>
+                <input type="radio" name="r5" value="3"> 3<br>
+                <input type="radio" name="r5" value="4"> 4<br>
+                <input type="radio" name="r5" value="5"> 5<br>
+            </div>
+<div class="boton" >
+    <button type="button" onclick="submitQuiz()">Enviar respuestas</button>
+</div>
+
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <script src="juego.js"></script>
+
+
+    <footer class="pie_de_pagina">
+        <a href="https://www.uade.edu.ar">
+          <img class="uade" src="img/uade_una_gran_universidad.png" alt="">
+        </a>
+  
+          <p>
+            <br>
+            @ Curriculum Vitae 2023- Lautaro Guardia
+          </p>
+      </footer>
+  
+  
+      
+    </body>
+  </html>
+  
